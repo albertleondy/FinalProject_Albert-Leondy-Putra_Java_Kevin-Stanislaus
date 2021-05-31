@@ -124,7 +124,7 @@ public class db extends JFrame{
 	 jp_view.add(tableContainer1);
 	 jp_update.add(tableContainer2);
 	 jp_delete.add(tableContainer3);
-
+	 
 	 jp.setLayout(new GridLayout(2,2));
 	 jp.setSize(300, 500);
 	 jp.setLocation(500,300);
