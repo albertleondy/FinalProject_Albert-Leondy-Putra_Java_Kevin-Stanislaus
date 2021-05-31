@@ -124,50 +124,6 @@ public class db extends JFrame{
 	 jp_view.add(tableContainer1);
 	 jp_update.add(tableContainer2);
 	 jp_delete.add(tableContainer3);
-	 
-	 form_price.addKeyListener(new KeyAdapter() {
-		 @Override
-		 public void keyPressed(KeyEvent e) {
-			 try {
-				 Integer.parseInt(form_price.getText());
-			 }catch(NumberFormatException err1) {
-				 field_validation.setText("Input must be numeric!!");
-			 }
-		 }
-	 });
-	 
-	 form_stock.addKeyListener(new KeyAdapter() {
-		 @Override
-		 public void keyPressed(KeyEvent e) {
-			 try {
-				 Integer.parseInt(form_stock.getText());
-			 }catch(NumberFormatException err1) {
-				 field_validation.setText("Input must be numeric!!");
-			 }
-		 }
-	 });
-	 
-	 update_price.addKeyListener(new KeyAdapter() {
-		 @Override
-		 public void keyPressed(KeyEvent e) {
-			 try {
-				 Integer.parseInt(form_price.getText());
-			 }catch(NumberFormatException err1) {
-				 field_validation.setText("Input must be numeric!!");
-			 }
-		 }
-	 });
-	 
-	 update_stock.addKeyListener(new KeyAdapter() {
-		 @Override
-		 public void keyPressed(KeyEvent e) {
-			 try {
-				 Integer.parseInt(form_stock.getText());
-			 }catch(NumberFormatException err1) {
-				 field_validation.setText("Input must be numeric!!");
-			 }
-		 }
-	 });
 
 	 jp.setLayout(new GridLayout(2,2));
 	 jp.setSize(300, 500);
